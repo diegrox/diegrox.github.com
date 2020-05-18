@@ -1,0 +1,159 @@
+html{
+    font-family: 'Nunito', sans-serif;
+}
+
+a{
+    text-decoration: none;
+    color: #1f4037;
+}
+
+a:hover{
+    opacity: 0.5;
+}
+
+img{
+    max-width: 100%;
+}
+
+.titulo{
+    text-transform: uppercase;
+    text-align: center;
+}
+
+.container{
+    background: #1f4037;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #99f2c8, #1f4037);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #99f2c8, #1f4037); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.content{
+    max-width: 960px;
+    max-height: 500px;
+    height: 80vw;
+    width: 100%;
+    background: white;
+    box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23);
+    border-radius: 4px;
+    position: relative;
+   overflow: scroll;
+}
+
+.content{
+    padding: 1em;
+}
+td{
+    display: block;
+    width: 100%;
+}
+
+td:nth-of-type(1){
+    font-size: 1.5em;
+    font-weight: bold;
+    color:#3590da;
+}
+th{
+    display: none;
+}
+
+.actions{
+    position: absolute;
+    top: 1em;
+    right: 1em;
+}
+
+.close{
+    height: 40px;
+    width: 40px;
+    color: white;
+    border-radius: 50%;
+    background-color: teal;
+    display: inline-block;
+    box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23);
+    font-weight: 300;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.paragraph{
+    line-height: 1.8em;
+    font-weight: 300;
+}
+
+.fa-heart{
+    color: tomato; 
+}
+
+.table{
+    width: 100%;
+    border-spacing: 0;  
+}
+
+.table td, .table th{
+    padding: 1em;
+    text-align: left;
+}
+
+.table tr:nth-child(even){background: #99f2c8;}
+
+.title-item{
+   /*border-bottom-style: solid;
+    border-width: 2px;
+    border-color: #99f2c8;*/
+    border-bottom:  solid 2px #99eff2; /*A esto se le llama Shorthand Properties de borde ya que se coloca en una sola linea varias propiedades*/
+    padding-bottom: 1em;
+    font-size: 2em;
+}
+
+.address{
+    font-weight: bold;
+    color: #48adb1;
+    font-size: 1.2em;
+    margin-top: 1em;
+    display: inline-block;
+}
+
+.main-image{
+    float: left;
+    margin-right: 1em;
+    height: 250px;
+}
+
+.position{
+    background-color: #99f2c8;
+    color: white;
+   /*padding: 1em 2em 3em 1em; A esto se le llama Shorthand Properties de padding ya que se coloca en una sola linea varias propiedades*/
+   padding: 0.5em;
+   border-radius: 4px;
+   margin-right: 0.5em;
+}
+
+@media(min-width:900px){
+    th{
+        display: table-cell;
+    }
+
+    td{
+        width: auto;
+        display: table-cell;
+    }
+
+    td:nth-of-type(1){
+        font-size:1em;
+    }    
+        .content{
+            padding: 1.8em;
+        }
+    }
+}
+
+@media (min-height:550px){
+    .content{
+        height: 500px;
+    }
+}
