@@ -4,7 +4,8 @@ html, body{
 }
 
 .container{
-    background: linear-gradient(#930ed5 20%, #b057dd);
+    background-image: url(../img/fondo.jpg);
+    /*background: linear-gradient(#930ed5 20%, #b057dd);*/
     min-height: 100%;
 }
 
@@ -24,7 +25,6 @@ html, body{
     box-shadow: 9px -9px 15px #000;
 }
 
-
 nav ul{
     margin: 0;
 }
@@ -35,11 +35,13 @@ nav ul li{
     float: left;
     padding-top: 5px;
     padding-bottom: 5px;
+    background: green;
+    border-radius: 25px;
 }
 
 nav ul a{
     text-decoration: none;
-    color: #ffff;
+    color: #fff;
     font-family:'Francois One', sans-serif;
     font-size: 1.1em;
     padding: 20px;
@@ -50,6 +52,9 @@ h1{
     font-family:'Metal Mania', cursive;
     text-align: center;
     padding: 1px;
+    color: rgba(166, 30, 245, .8);
+    border-radius: 35px;
+    text-shadow: 10px -10px 9px #000;
 }
 
 h3{
@@ -58,15 +63,23 @@ h3{
     text-align: center;
     padding: 0;
     margin: 0;
+    margin-bottom: 10px;
+    color: rgba(33, 199, 69, 0.9);
+    text-shadow: 4px -4px 2px #000;
+    border-radius: 35px;
 }
 
 footer{
     text-align: center;
+    margin-top: 50px;
 }
 
 footer a{
     text-decoration: none;
-    color: #05074d;
+    color: #fff;
     font-size: 1.5em;
     font-family:'Francois One', sans-serif;
+    background: green;
+    border-radius: 5px;
+    padding: 2px;
 }
