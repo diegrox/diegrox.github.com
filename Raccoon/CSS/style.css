@@ -24,6 +24,10 @@ html, body{
     /*box-shadow: 9px -9px 15px #000;*/
 }
 
+.trabajo{
+    width: 400px;
+}
+
 nav ul{
     margin: 0;
 }
@@ -91,14 +95,17 @@ footer a{
        width: 100%;
     }
 
+    .trabajo{
+        width: 50%;
+        align-items: center;
+    }
+
     h1{
-        font-size: 4em;
+        font-size: 4.5em;
     }
 
 @media screen and (min-width: 481px) and (max-width: 760px){
-    h1{
-        font-size: 2em;
-    }
+   
 
 }
 
