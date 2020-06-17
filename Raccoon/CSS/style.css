@@ -5,7 +5,7 @@ html, body{
 }
 
 .container{
-    position: relative;
+    position: absolute;
 }
 
 .title{
@@ -14,13 +14,15 @@ html, body{
 
 .image{
     width: 100%;
+    margin-left: 40%;
     
 }
 
 .logo{
     left: 34%;
     border-radius: 25px;
-    margin-top: 40px;
+    margin-top: 90px;
+    margin-bottom: 40px;
     /*box-shadow: 9px -9px 15px #000;*/
 }
 
@@ -58,7 +60,6 @@ h1{
     text-align: center;
     padding: 1px;
     color: rgba(166, 30, 245, .8);
-    border-radius: 35px;
     text-shadow: 10px -10px 9px #000;
 }
 
