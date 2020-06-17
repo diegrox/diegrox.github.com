@@ -32,6 +32,7 @@ html, body{
 
 nav ul{
     margin: 0;
+    padding: 10px;
 }
 
 nav ul li{
