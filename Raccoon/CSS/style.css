@@ -28,6 +28,7 @@ nav ul a{
 }
 
 h1{
+    margin: 0;
     font-size: 8em;
     font-family:'Metal Mania', cursive;
     text-align: center;
@@ -65,13 +66,17 @@ footer a{
 }
 
 .container{
-    display: inline-block;
+    width: 650px;
+    margin: auto;
+}
+
+.content{
+    
 }
 
 .logo{
     width: 650px;
-    display: block;
-    margin: auto;
+    margin-bottom: 0;
 }
 
 @media screen and (max-width: 480px){
