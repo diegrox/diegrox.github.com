@@ -65,13 +65,13 @@ footer a{
 }
 
 .container{
-    display: flex;
+    display: inline-block;
 }
 
 .logo{
     width: 650px;
     display: block;
-    margin-left: 0; 
+    margin: auto;
 }
 
 @media screen and (max-width: 480px){
